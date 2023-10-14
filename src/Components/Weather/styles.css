@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container-fluid{
+    background-color: rgb(6, 55, 104);
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    margin-top: 30px;
+    background-color:#eee;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 500px;
+    box-shadow: 0px 14px 28px rgba(0, 0, 0,.25),
+                0px 10px 10px rgba(0, 0, 0,.22);
+    
+}
+.title{
+    margin-top: 30px;
+    color:rgba(16, 30, 228, 0.941);
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: .3px;
+    font-size: 40px;
+
+}
+.input{
+    margin-top: 20px;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    border: 2px solid blue;
+    color: navy;
+    font-size: 20px;
+
+
+}
+input:hover{
+    border: 2px solid navy;
+    background-color: floralwhite;
+}
+.but{
+   background:lightblue;
+   color:blue;
+   height: 55px;
+   margin-left: 20px;
+   border: 2px solid blue;
+   width: 200px;
+   font-size: 20px;
+   font-weight: 600;
+   text-transform: uppercase;
+   border-radius: 10px;  
+   letter-spacing: 2px;
+}
+.but:hover{
+    border: 2px solid navy;
+    color:navy;
+    background-color:lightcyan;
+}
+.conta{
+    background:rgb(169, 230, 230);
+    margin-top: 40px;
+    height: 300px;
+
+}
+.city-name{
+    color: navy;
+    text-transform: uppercase;
+}
+.temp{
+    color: navy;
+    font-size: 40px;
+}
+
+.left{
+    padding-bottom: 10px;
+    text-align: left;
+    color:blue;
+    font-weight: bold;
+    text-transform: capitalize;
+
+    
+}
+.right{
+
+    text-align: right;
+    color:blue;
+    font-weight: bold;
+    text-transform: capitalize;
+    
+    
+}
+
+@media(max-width:767px){
+    .temp{
+        background-color: #e45842;
+        border-radius: 50%;
+        width: 150px;
+        font-size: 25px;
+        padding: 5px;
+        margin-left: 180px;
+
+    }
+}
+    @media(max-width:538px){
+        .temp{
+        width: 140px;
+        font-size: 25px;
+        padding: 5px;
+        margin-left: 170px;
+    }
+ }
+ @media(max-width:500px){
+    *{
+        font-size: 10px;
+    }
+    .input{
+        
+        border-radius: 5px;
+        width: 40%;
+        padding:5px 5px;
+        height: 30px;
+        font-size: 10px;
+    
+    }
+    .but{
+        
+        height: 30px;
+        margin-left: 20px;
+        border: 2px solid blue;
+        width: 100px;
+        font-size: 10px;
+    
+     }
+    .temp{
+        width: 100px;
+        margin-left: 180px;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+    .left ,
+    .right{
+        margin-top: 10px;
+        text-align: center;
+    }
+ }
+ @media(max-width:404px){
+    .temp{
+        margin-left: 140px;
+
+    }
+ }
+ 
+ @media(max-width:398px){
+    .temp{
+      
+        font-size: 10px;
+        width: 50px;
+
+    }
+ }
+ 
